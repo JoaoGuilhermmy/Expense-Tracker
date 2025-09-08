@@ -70,7 +70,7 @@ Pronto! Agora você já pode começar a gerenciar suas finanças. Um arquivo des
 
 📸 Telas da Aplicação
 #### Menu Principal
-         -------------- Controle Financeiro --------------
+-------------- Controle Financeiro --------------
 Escolha uma opcao:
 1 - Adicionar despesa
 2 - Listar despesas
@@ -82,8 +82,8 @@ Escolha uma opcao:
 Digite sua opção:
 
 #### Adicionando uma Despesa:
-         -------------- Cadastro da Despesa --------------
-Digite a descrição da despesa: Jantar com amigos
+-------------- Cadastro da Despesa --------------
+Digite a descrição da despesa: Jantar com amigos
 Digite o valor da despesa: 150.75
 Digite a data da despesa: (dd/mm/aaaa): 07/09/2025
 Escolha qual categoria sua despesa se encaixa:
@@ -94,6 +94,7 @@ Escolha qual categoria sua despesa se encaixa:
 5 - Saúde
 6 - Contas e Serviços
 7 - Outros
+4
 
 #### Listando Despesas
 -----------------------------------------------------
@@ -102,14 +103,14 @@ Escolha qual categoria sua despesa se encaixa:
 
 
   ----------------------------
-  Descrição:        Almoco
-  Valor:         R$25.50
-  Data:          05/09/2025
-  Categoria:     Alimentacao
+  Descrição:       Almoco
+  Valor:           R$25.50
+  Data:            05/09/2025
+  Categoria:       Alimentacao
   ----------------------------
-  Descrição:        Uber
-  Valor:         R$15.00
-  Data:          06/09/2025
-  Categoria:     Locomoção
+  Descrição:       Uber
+  Valor:           R$15.00
+  Data:            06/09/2025
+  Categoria:       Locomoção
   ----------------------------
 Feito com ❤️ por João Guilhermmy 
