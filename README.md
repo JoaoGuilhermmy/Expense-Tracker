@@ -41,12 +41,12 @@ Clone o repositório:
 
 Bash
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/JoaoGuilhermmy/Controle-de-gastos_C-.git
 Navegue até o diretório do projeto:
 
 Bash
 
-cd seu-repositorio
+cd Controle-de-gastos_C-
 Compile os arquivos-fonte:
 Use o seguinte comando no seu terminal para compilar todos os arquivos .cpp e gerar o executável:
 
@@ -111,4 +111,4 @@ Listando Despesas
   Data:          06/09/2025
   Categoria:     Locomoção
   ----------------------------
-Feito com ❤️ por [Seu Nome/Usuário]
+Feito com ❤️ por João Guilhermmy 
