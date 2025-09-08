@@ -2,7 +2,7 @@
 
 [![C++](https://img.shields.io/badge/language-C++-blue.svg)](https://isocpp.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow.svg)]()
+![status](https://img.shields.io/badge/status-concluído-brightgreen)
 
 ---
 
