@@ -69,7 +69,7 @@ ControleFinanceiro.exe
 Pronto! Agora você já pode começar a gerenciar suas finanças. Um arquivo despesas.txt será criado no mesmo diretório para armazenar seus dados.
 
 📸 Telas da Aplicação
-Menu Principal
+#### Menu Principal
          -------------- Controle Financeiro --------------
 Escolha uma opcao:
 1 - Adicionar despesa
@@ -80,7 +80,8 @@ Escolha uma opcao:
 6 - Filtrar por mês
 7 - Sair
 Digite sua opção:
-Adicionando uma Despesa
+
+#### Adicionando uma Despesa:
          -------------- Cadastro da Despesa --------------
 Digite a descrição da despesa: Jantar com amigos
 Digite o valor da despesa: 150.75
@@ -93,8 +94,8 @@ Escolha qual categoria sua despesa se encaixa:
 5 - Saúde
 6 - Contas e Serviços
 7 - Outros
-4
-Listando Despesas
+
+#### Listando Despesas
 -----------------------------------------------------
          ***Lista de Despesas***
 -----------------------------------------------------
