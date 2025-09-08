@@ -68,7 +68,7 @@ g++ main.cpp Controle.cpp Despesas.cpp -o ControleFinanceiro.exe
 ### 4️⃣ Execute o programa
 ```bash
 Linux:
-./ControleFinanceiro.exe
+./ControleFinanceiro
 ```
 
 ```bash
