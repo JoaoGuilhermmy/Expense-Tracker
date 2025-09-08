@@ -1,116 +1,151 @@
-💸 Controle Financeiro Pessoal em C++ 💸
-🎯 Sobre o Projeto
-Este é um sistema de Controle Financeiro Pessoal robusto e intuitivo, desenvolvido inteiramente em C++. Se você busca uma maneira simples e eficiente de gerenciar suas despesas diárias, esta é a ferramenta perfeita!
+# 💸 Controle Financeiro Pessoal em C++ 💸
 
-Através de uma interface de console limpa e direta, o sistema permite que você cadastre, visualize, filtre e remova suas despesas, tudo de forma organizada. Os dados são salvos localmente em um arquivo de texto (despesas.txt), garantindo que suas informações persistam entre os usos e que você tenha total controle sobre elas.
+[![C++](https://img.shields.io/badge/language-C++-blue.svg)](https://isocpp.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow.svg)]()
 
-O projeto foi estruturado utilizando conceitos de Programação Orientada a Objetos (POO), com classes bem definidas (Despesa e ControleFinanceiro) que garantem um código limpo, organizado e de fácil manutenção.
+---
 
-✨ Funcionalidades Principais
-O sistema oferece um conjunto completo de ferramentas para gerenciar suas finanças:
+## 📑 Índice
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Funcionalidades Principais](#-funcionalidades-principais)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Como Executar o Projeto](#-como-executar-o-projeto)
+- [Categorias de Despesas](#-categorias-de-despesas)
+- [Telas da Aplicação](#-telas-da-aplicação)
+- [Autor](#-autor)
 
-🖋️ Adicionar Despesas: Cadastre novas despesas de forma rápida, informando descrição, valor, data e associando a uma categoria pré-definida.
+---
 
-📋 Listar Todas as Despesas: Tenha uma visão completa e detalhada de todos os seus gastos registrados.
+## 🎯 Sobre o Projeto
+Este é um sistema de **Controle Financeiro Pessoal** robusto e intuitivo, desenvolvido inteiramente em **C++**.  
 
-🗑️ Remover Despesas: Removeu um lançamento por engano? Selecione uma despesa específica da lista e apague-a facilmente.
+Através de uma interface de console limpa e direta, o sistema permite que você **cadastre, visualize, filtre e remova suas despesas**, tudo de forma organizada.  
 
-💰 Calcular Gasto Total: Com um único comando, obtenha a soma total de todas as suas despesas cadastradas.
+📌 As despesas são salvas em arquivo (`despesas.txt`), garantindo **persistência dos dados** entre usos.  
 
-🔍 Filtrar por Categoria: Analise seus gastos de forma mais profunda! Visualize apenas as despesas de uma categoria específica (como "Alimentação", "Lazer", "Saúde", etc.) e veja o total gasto nela.
+O projeto foi estruturado com **Programação Orientada a Objetos (POO)**, utilizando classes bem definidas (`Despesa` e `ControleFinanceiro`) que tornam o código **limpo, organizado e de fácil manutenção**.
 
-📅 Filtrar por Mês e Ano: Quer saber quanto gastou em um período específico? Filtre todas as despesas por um determinado mês e ano (formato mm/aaaa) e veja o balanço do período.
+---
 
-💾 Persistência de Dados: Suas despesas são salvas automaticamente em um arquivo despesas.txt ao sair e carregadas ao iniciar o programa. Você nunca perde seus dados!
+## ✨ Funcionalidades Principais
+- 🖋️ **Adicionar Despesas**: Informe descrição, valor, data e categoria.
+- 📋 **Listar Todas as Despesas**: Visualização detalhada de todos os registros.
+- 🗑️ **Remover Despesas**: Exclua facilmente uma despesa específica.
+- 💰 **Calcular Gasto Total**: Veja quanto já foi gasto em todas as despesas.
+- 🔍 **Filtrar por Categoria**: Visualize gastos em categorias específicas (como "Alimentação", "Lazer", etc.).
+- 📅 **Filtrar por Mês e Ano**: Descubra quanto gastou em períodos específicos.
+- 💾 **Persistência de Dados**: Dados salvos automaticamente no `despesas.txt`.
+- 🖥️ **Interface de Console Limpa**: Com limpeza de tela após cada operação para melhor experiência.
 
-🖥️ Interface de Console Limpa: Interações claras e diretas, com limpeza de tela após cada operação para uma melhor experiência de usuário.
+---
 
-🛠️ Tecnologias Utilizadas
-C++: Linguagem principal do projeto, escolhida por sua performance e robustez.
+## 🛠️ Tecnologias Utilizadas
+- **C++** → Linguagem principal
+- **POO (Programação Orientada a Objetos)** → Estrutura modular e organizada
+- **Manipulação de Arquivos (fstream)** → Persistência de dados
+- **Biblioteca Padrão do C++** → `iostream`, `vector`, `string`, `sstream`, `iomanip`
 
-Programação Orientada a Objetos (POO): O código é modular e organizado em classes para facilitar a manutenção e escalabilidade.
+---
 
-Manipulação de Arquivos (fstream): Para salvar e carregar os dados das despesas, garantindo a persistência das informações.
+## 🚀 Como Executar o Projeto
 
-Biblioteca Padrão do C++: Uso de iostream, vector, string, sstream, iomanip, entre outras, para as operações fundamentais.
-
-🚀 Como Executar o Projeto
-Para compilar e executar este projeto, você precisará de um compilador C++, como o g++ (MinGW) no Windows ou o GCC no Linux.
-
-Clone o repositório:
-
-Bash
-
+### 1️⃣ Clone o repositório
+```bash
 git clone https://github.com/JoaoGuilhermmy/Controle-de-gastos_C-.git
-Navegue até o diretório do projeto:
+``` 
 
-Bash
-
+### 2️⃣ Acesse a pasta do projeto
+```bash
 cd Controle-de-gastos_C-
-Compile os arquivos-fonte:
-Use o seguinte comando no seu terminal para compilar todos os arquivos .cpp e gerar o executável:
+```
 
-Bash
-
+### 3️⃣ Compile o código
+```bash
 g++ main.cpp Controle.cpp Despesas.cpp -o ControleFinanceiro.exe
-Observação: A flag -o define o nome do arquivo de saída (o executável).
+```
 
-Execute o programa:
-Após a compilação bem-sucedida, execute o programa com o comando:
-
-Bash
-
+### 4️⃣ Execute o programa
+```bash
+Linux:
 ./ControleFinanceiro.exe
-Ou, no Windows:
+```
 
-Bash
-
+```bash
+Windows:
 ControleFinanceiro.exe
-Pronto! Agora você já pode começar a gerenciar suas finanças. Um arquivo despesas.txt será criado no mesmo diretório para armazenar seus dados.
+```
 
-📸 Telas da Aplicação
-#### Menu Principal
+### 📂 Categorias de Despesas
+| Código | Categoria         |
+| ------ | ----------------- |
+| 1      | Alimentação       |
+| 2      | Locomoção         |
+| 3      | Educação          |
+| 4      | Lazer             |
+| 5      | Saúde             |
+| 6      | Contas e Serviços |
+| 7      | Outros            |
+
+### 📸 Telas da Aplicação
+```
 -------------- Controle Financeiro --------------
-Escolha uma opcao:
+Escolha uma opção:
 1 - Adicionar despesa
 2 - Listar despesas
 3 - Calcular total de despesas
 4 - Remover despesa
-5 - Mostrar depesas com filtro
+5 - Mostrar despesas com filtro
 6 - Filtrar por mês
 7 - Sair
 Digite sua opção:
-
-#### Adicionando uma Despesa:
+``` 
+### Adicionando uma Despesa
+```
 -------------- Cadastro da Despesa --------------
 Digite a descrição da despesa: Jantar com amigos
 Digite o valor da despesa: 150.75
 Digite a data da despesa: (dd/mm/aaaa): 07/09/2025
 Escolha qual categoria sua despesa se encaixa:
-1 - Alimentacao
+1 - Alimentação
 2 - Locomoção
 3 - Educação
 4 - Lazer
 5 - Saúde
 6 - Contas e Serviços
 7 - Outros
-4
-
-#### Listando Despesas
+```
+### Listando Despesas
+```
 -----------------------------------------------------
          ***Lista de Despesas***
 -----------------------------------------------------
+Descrição: Almoco    | Valor: R$25.50 | Data: 05/09/2025 | Categoria: Alimentação
+Descrição: Uber      | Valor: R$15.00 | Data: 06/09/2025 | Categoria: Locomoção
+
+Ou em formato de tabela:
+
+```markdown
+| Descrição |   Valor  | Data       | Categoria   |
+| --------- | -------: | ---------- | ----------- |
+| Almoço    | R$ 25.50 | 05/09/2025 | Alimentação |
+| Uber      | R$ 15.00 | 06/09/2025 | Locomoção   |
+```
 
 
-  ----------------------------
-  Descrição:       Almoco
-  Valor:           R$25.50
-  Data:            05/09/2025
-  Categoria:       Alimentacao
-  ----------------------------
-  Descrição:       Uber
-  Valor:           R$15.00
-  Data:            06/09/2025
-  Categoria:       Locomoção
-  ----------------------------
-Feito com ❤️ por João Guilhermmy 
+## 👨‍💻 Autor
+<p align="center"> Feito com ❤️ por <b>João Guilhermmy</b> </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
