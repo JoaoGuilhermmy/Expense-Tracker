@@ -132,10 +132,10 @@ Ou em formato de tabela:
 | Uber      | R$ 15.00 | 06/09/2025 | Locomoção   |
 ```
 
+### ⚡ O projeto já está funcional e concluído, mas novas ideias e sugestões de melhorias são sempre bem-vindas!
 
 ## 👨‍💻 Autor
 <p align="center"> Feito com ❤️ por <b>João Guilhermmy</b> </p>
-
 
 
 
